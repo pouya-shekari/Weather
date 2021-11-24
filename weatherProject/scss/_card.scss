@@ -1,0 +1,56 @@
+$description-color: $secondary-text-color;
+$title-color:$primary-text-color;
+
+.card__wrapper{
+  @media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+  }
+
+  @media (min-width: 1200px){
+    display: flex;
+  }
+
+}
+
+
+.card{
+  background-color: #68b3e9;
+  border-radius: 1.6rem;
+  box-sizing: border-box;
+  padding: 3.2rem;
+
+
+  @media screen and (min-width:768px) {
+    width: 30%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc(20% - 40px);
+  }
+
+
+  &__shadow{
+    @extend .card;
+    box-shadow: 0 5px 10px 0 rgba(#000 , 0.1);
+  }
+
+  &__icon{
+    margin: 2rem auto;
+    width: 7rem;
+  }
+
+  &__title{
+    color: $title-color;
+    font-size: 2.4rem;
+    font-weight: bolder;
+  }
+
+  &__description{
+    color: $description-color;
+    font-size: 1.8rem;
+  }
+}
