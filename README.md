@@ -4,6 +4,8 @@ run project on a local host and use it.
 
 ## Preview
 ![alt text](https://s6.uupload.ir/files/weather1_fna9.png)
+
+## Responsive Preview
 ![alt text](https://s6.uupload.ir/files/weather2_t61.png)
 
 
